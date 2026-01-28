@@ -1,0 +1,70 @@
+/* Reset some default spacing */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Header links hover effect */
+#header a font {
+    transition: color 0.3s ease;
+}
+
+#header a:hover font {
+    color: #2c3e50;
+}
+
+/* About section image */
+#about img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Section spacing */
+#about,
+#skills,
+#achievements {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Skills list styling */
+#skills ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Achievements list styling */
+#achievements ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+#achievements li {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+#footer {
+    color: white;
+    font-family: Verdana;
+}
+
+#footer a {
+    color: white;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+/* Responsive image fix */
+img {
+    max-width: 100%;
+    height: auto;
+}
