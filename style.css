@@ -1,70 +1,205 @@
-/* Reset some default spacing */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* Header links hover effect */
-#header a font {
-    transition: color 0.3s ease;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-#header a:hover font {
-    color: #2c3e50;
-}
+<body>
 
-/* About section image */
-#about img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+    <!-- Header -->
+    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#7f8c8d">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td width="15%">&nbsp;</td>
+                        <td width="15%">&nbsp;</td>
 
-/* Section spacing */
-#about,
-#skills,
-#achievements {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+                        <td>
+                            <a href="#home" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">Home</font>
+                            </a>
+                        </td>
+                        <td>|</td>
 
-/* Skills list styling */
-#skills ul {
-    list-style-type: square;
-    padding-left: 40px;
-}
+                        <td>
+                            <a href="#about" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">About</font>
+                            </a>
+                        </td>
+                        <td>|</td>
 
-#skills li {
-    margin-bottom: 10px;
-}
+                        <td>
+                            <a href="#skills" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">Skills</font>
+                            </a>
+                        </td>
+                        <td>|</td>
 
-/* Achievements list styling */
-#achievements ul {
-    list-style-type: disc;
-    padding-left: 40px;
-}
+                        <td>
+                            <a href="#achievements" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">Achievements</font>
+                            </a>
+                        </td>
+                        <td>|</td>
 
-#achievements li {
-    margin-bottom: 8px;
-}
+                        <td>
+                            <a href="#pdf" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">Resume</font>
+                            </a>
+                        </td>
+                        <td>|</td>
 
-/* Footer styling */
-#footer {
-    color: white;
-    font-family: Verdana;
-}
+                        <td>
+                            <a href="#contact" style="text-decoration:none">
+                                <font face="Verdana" size="5" color="black">Contact</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
-#footer a {
-    color: white;
-    font-weight: bold;
-}
+    <!-- About -->
+    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="#4CAF50">
+                                About Me
+                            </font>
+                            <hr color="#4CAF50" width="90">
+                        </td>
+                    </tr>
 
-#footer a:hover {
-    color: #2c3e50;
-    text-decoration: underline;
-}
+                    <tr>
+                        <td width="40%" align="center">
+                            <img src="portfolio_pic.png"
+                                 style="width:250px; height:auto; border-radius:10px;">
+                        </td>
 
-/* Responsive image fix */
-img {
-    max-width: 100%;
-    height: auto;
-}
+                        <td width="60%">
+                            <font face="Verdana" size="4" color="white">
+                                <hr color="black">
+                                I am H. Lavanya from Anantapur. I am currently pursuing my final year of B.Tech in Computer Science and Engineering at RGMCET with an aggregate of 79%.
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Skills -->
+    <table id="skills" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#7f8c8d">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center">
+                            <font face="Verdana" size="7">Skills</font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Data Structures</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>SQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Achievements -->
+    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center">
+                            <font face="Verdana" size="7" color="#4CAF50">
+                                Achievements
+                            </font>
+                            <hr color="#4CAF50" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Participated in Web Design competition</li>
+                                <li>Participated in Quiz</li>
+                                <li>Attended workshops</li>
+                                <li>Completed C & DS training</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- PDF Section -->
+    <table id="pdf" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#7f8c8d">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center">
+                            <font face="Verdana" size="7" color="black">
+                                Resume (PDF)
+                            </font>
+                            <hr color="black" width="120">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <iframe src="Task1_ITLab.pdf"
+                                    width="100%"
+                                    height="500px"
+                                    style="border:2px solid #333;">
+                            </iframe>
+
+                            <br><br>
+                            <a href="resume.pdf" download>
+                                <font size="4">Download Resume</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+        <tr>
+            <td align="center">
+                <font color="white">
+                    Email: hlavanya12410@gmail.com | Contact: 7330652167
+                </font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
